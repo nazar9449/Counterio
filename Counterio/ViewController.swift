@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet weak var labelValue: UILabel!
+    
+    @IBOutlet weak var countButton: UIButton!
 }
 

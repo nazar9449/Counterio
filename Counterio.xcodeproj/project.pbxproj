@@ -16,7 +16,6 @@
 		720AA88A29AB162600FF9BD2 /* CounterioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720AA88929AB162600FF9BD2 /* CounterioTests.swift */; };
 		720AA89429AB162600FF9BD2 /* CounterioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720AA89329AB162600FF9BD2 /* CounterioUITests.swift */; };
 		720AA89629AB162600FF9BD2 /* CounterioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720AA89529AB162600FF9BD2 /* CounterioUITestsLaunchTests.swift */; };
-		72B1A37F29AB19A300127D8E /* counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1A37E29AB19A300127D8E /* counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		720AA88F29AB162600FF9BD2 /* CounterioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		720AA89329AB162600FF9BD2 /* CounterioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterioUITests.swift; sourceTree = "<group>"; };
 		720AA89529AB162600FF9BD2 /* CounterioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterioUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		72B1A37E29AB19A300127D8E /* counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +102,6 @@
 				720AA87229AB162400FF9BD2 /* AppDelegate.swift */,
 				720AA87429AB162400FF9BD2 /* SceneDelegate.swift */,
 				720AA87629AB162400FF9BD2 /* ViewController.swift */,
-				72B1A37E29AB19A300127D8E /* counter.swift */,
 				720AA87829AB162400FF9BD2 /* Main.storyboard */,
 				720AA87B29AB162600FF9BD2 /* Assets.xcassets */,
 				720AA87D29AB162600FF9BD2 /* LaunchScreen.storyboard */,
@@ -261,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72B1A37F29AB19A300127D8E /* counter.swift in Sources */,
 				720AA87729AB162400FF9BD2 /* ViewController.swift in Sources */,
 				720AA87329AB162400FF9BD2 /* AppDelegate.swift in Sources */,
 				720AA87529AB162400FF9BD2 /* SceneDelegate.swift in Sources */,
@@ -454,7 +450,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Counterio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Counteriozz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -482,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Counterio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Counteriozz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
