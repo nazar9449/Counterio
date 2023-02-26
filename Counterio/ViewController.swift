@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    private var counter: Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +21,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var countButton: UIButton!
     
     @IBAction func countAdd(_ sender: Any) {
-        print("Counter button is working!")
+        print("Значение счётчика: \(self.counter)")
+        counter += 1
     }
     
 }
