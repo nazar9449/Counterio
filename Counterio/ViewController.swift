@@ -17,5 +17,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelValue: UILabel!
     
     @IBOutlet weak var countButton: UIButton!
+    
+    @IBAction func countAdd(_ sender: Any) {
+        print("Counter button is working!")
+    }
+    
 }
 
